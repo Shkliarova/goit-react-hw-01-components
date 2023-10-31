@@ -3,6 +3,9 @@ import { Profile } from './Profile';
 
 export const App = () => {
   return (
-    <Profile user={user} />
+    <div>
+      <Profile user={user} />
+
+    </div>
   );
 };

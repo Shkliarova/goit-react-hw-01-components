@@ -1,30 +1,30 @@
+import { ProfileWrapper, ProfileImage, ProfileInfo, ProfileList, ProfileListItem } from "components/Profile.styled"
+
 export const Profile = ({user}) => {
     return (
-        <div>
-            <div>
-                <img 
+        <ProfileWrapper>
+                <ProfileImage 
                 src={user.avatar}
                 alt={user.username}
                 width="100"
                 />
-                <p>{user.username}</p>
-                <p>@{user.tag}</p>
-                <p>{user.location}</p>
-                <ul>
-                    <li>
-                        <span>Followers </span>
-                        <span>{user.stats.followers}</span>
-                    </li>
-                    <li>
-                        <span>Views </span>
-                        <span>{user.stats.views}</span>
-                    </li>
-                    <li>
-                        <span>Likes </span>
-                        <span>{user.stats.likes}</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                <h2 align = "center">{user.username}</h2>
+                <ProfileInfo>@{user.tag}</ProfileInfo>
+                <ProfileInfo>{user.location}</ProfileInfo>
+                <ProfileList>
+                    <ProfileListItem>
+                        <span>Followers</span>
+                        <span><b>{user.stats.followers}</b></span>
+                    </ProfileListItem>
+                    <ProfileListItem>
+                        <span>Views</span>
+                        <span><b>{user.stats.views}</b></span>
+                    </ProfileListItem>
+                    <ProfileListItem>
+                        <span>Likes</span>
+                        <span><b>{user.stats.likes}</b></span>
+                    </ProfileListItem>
+                </ProfileList>
+        </ProfileWrapper>
     )
 }
