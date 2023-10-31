@@ -6,7 +6,7 @@ margin: 0 auto;
 border: 1px solid ${p => {
     return p.theme.colors.black;
 }};
-max-width: 300px;`
+width: 300px;`
 
 export const ProfileImage = styled.img`
 margin: 0 auto;`
