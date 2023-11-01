@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileWrapper = styled.div`
-padding: 15px 0 0 0;
+padding: 15px 0 6px 0;
 margin: 0 auto;
 border: 1px solid ${p => {
     return p.theme.colors.black;
@@ -21,7 +21,9 @@ color: ${p => {
 export const ProfileList = styled.ul`
 display: flex;
 max-width: 100%;
-margin-top: 8px`
+margin-top: 8px;
+align-items: center;
+justify-content: center;`
 
 export const ProfileListItem = styled.li`
 display: flex;
@@ -29,7 +31,7 @@ flex-direction: column;
 border: 1px solid ${p => {
     return p.theme.colors.black;
 }};
-width: 100px;
+width: 95px;
 padding: 15px;
 align-items: center;
 justify-content: center;

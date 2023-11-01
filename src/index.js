@@ -8,7 +8,8 @@ const theme = {
   colors: {
     darkgrey: "#505252",    
     grey: "#edf7f7",
-    black: "#0f0f0f"
+    black: "#0f0f0f",
+    green: "#6b856d"
   }
 }
 
