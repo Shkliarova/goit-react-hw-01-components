@@ -12,6 +12,8 @@ const theme = {
     green: "#6b856d",
     red:"#e0141e",
     lightgreen: "#43e80c",
+    blue: "#08c1c7",
+    white: "#fafafa"
   }
 }
 

@@ -9,7 +9,8 @@ margin: 0 auto;
 margin-top: 20px;
 width: 500px;
 padding: 15px;
-text-align: center;`
+text-align: center;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);`
 
 export const StatisticsTitle = styled.h2`
 color: ${p => {
