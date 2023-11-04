@@ -1,4 +1,4 @@
-import { ProfileWrapper, ProfileImage, ProfileInfo, ProfileList, ProfileListItem } from "components/Profile.styled"
+import { ProfileWrapper, ProfileImage, ProfileInfo, ProfileList, ProfileListItem } from "components/Profile/Profile.styled"
 
 export const Profile = ({user}) => {
     return (

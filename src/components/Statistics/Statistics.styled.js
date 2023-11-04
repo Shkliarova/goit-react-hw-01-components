@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { generateRandomColor } from "functions";
+import { generateRandomColor } from "components/Statistics/functions";
 
 export const StatisticsWrapper = styled.section`
 border: 1px solid ${p => {

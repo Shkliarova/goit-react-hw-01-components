@@ -3,7 +3,7 @@ import { StatisticsWrapper, StatisticsTitle, StatisticsList, StatisticsItem, Sta
 export const Statistics = ({title, stats}) => {
     return(
         <StatisticsWrapper>
-            <StatisticsTitle>{title}</StatisticsTitle>
+            {title && <StatisticsTitle>{title}</StatisticsTitle>}
             <StatisticsList>
                 {stats.map(stat => {
                     return(
